@@ -1,0 +1,37 @@
+.Ourheader {
+  padding: 10px 5%;
+  background-color: blue;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding: 0.3rem;
+}
+.logo h2 {
+  font-size: 1.8rem;
+}
+.navLinks {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.navLinks .navItem {
+  font-size: 1.2rem;
+  color: black;
+}
+.navLinks .navItem:hover {
+  color: greenyellow;
+}
+@media (max-width: 767px) {
+  .logo h2 {
+    text-align: center;
+  }
+  .navBar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
